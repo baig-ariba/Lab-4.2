@@ -1,0 +1,43 @@
+body{
+    height: 90vh;
+    width: 90vw;
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 25px;
+}
+
+.List{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(61, 61, 61);
+}
+
+input{
+    padding: 2px;
+    border-color: rgb(61, 61, 61);
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(61, 61, 61);
+}
+
+button{
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: rgb(61, 61, 61);
+    color: rgb(61, 61, 61);
+}
+
+li{
+    padding: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: rgb(61, 61, 61);
+}
