@@ -11,6 +11,7 @@ addButton.addEventListener("click", function(){
     if (newItem.trim() === ""){
         return;
     }
+
     const groceryItemsList = shoppingCart.querySelectorAll("li");
     for (let i = 0; i < groceryItemsList.length; i++) {
         if (groceryItemsList[i].textContent.trim().toUpperCase() === newItem.trim().toUpperCase()) {
